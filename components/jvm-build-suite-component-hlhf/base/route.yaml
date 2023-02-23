@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-hlhf
     app.kubernetes.io/part-of: jvm-build-suite-application-klwe
-  name: jvm-build-suite-componentxg1x
+  name: jvm-build-suite-componentjrsw
   namespace: jvm-build-dfyg-tenant
 spec:
   port:

@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-hlhf
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images:a45720ec252742b2a686d691f40dd749
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:8758349b8102d67866e8fd3d5ea117abd8745fa7cdf31dbce16975e25bf1cf82
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
