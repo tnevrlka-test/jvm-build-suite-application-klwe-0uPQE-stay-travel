@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-hlhf
+  namespace: jvm-build-dfyg-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:8758349b8102d67866e8fd3d5ea117abd8745fa7cdf31dbce16975e25bf1cf82
+        name: container-image
+        resources: {}
+status: {}
